@@ -1,0 +1,113 @@
+#my-form {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  background-color: darkgray;
+  width: 20rem;
+  padding: 25px;
+  border-radius: 8px;
+  height: auto;
+  box-shadow: 9px 10px 25px -5px rgba(138,138,138,0.75);
+-webkit-box-shadow: 9px 10px 25px -5px rgba(138,138,138,0.75);
+-moz-box-shadow: 9px 10px 25px -5px rgba(138,138,138,0.75);
+}
+.main-text {
+  color:#4b4b49;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+.input-name {
+  display: flex;
+  flex-direction: column;
+}
+.input-name > label {
+  color: #4b4b49;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 5px;
+  
+}
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+/* Nuimam nuo input aktyvu border */
+textarea:focus,
+input:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.infos > label {
+  color: #4b4b49;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+#btn {
+  background-color: rgb(83, 83, 80);
+  border: none;
+  padding: 10px;
+  width: 86px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+}
+
+#card-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.data-card-wrapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 24px;
+  background-color: darkgray;
+  width: 15rem;
+  padding: 25px;
+  border-radius: 8px;
+  height: auto;
+  box-shadow: 9px 10px 25px -5px rgba(138,138,138,0.75);
+-webkit-box-shadow: 9px 10px 25px -5px rgba(138,138,138,0.75);
+-moz-box-shadow: 9px 10px 25px -5px rgba(138,138,138,0.75);
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-card > h3 {
+  margin: 5px;
+}
+
+.data-text-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-text-card > p {
+  color: rgb(255, 255, 255);
+  margin: 5px;
+}
+
